@@ -212,10 +212,9 @@ IconButton _button(IconData iconData, VoidCallback onPressed) => IconButton(
     );
 
 // Used for sending email from Home screen
-// TODO change emaul to koradiradio@gmail.com after testing
 final Uri params = Uri(
   scheme: 'mailto',
-  path: 'harr1424@pm.me',
+  path: 'koradiradio@gmail.com',
   query:
       'subject=A Message From App User&body=Type your message to Koradi Radio here...',
 );

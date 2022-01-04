@@ -41,7 +41,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDhxT8WwA3BvlMaYfVo-Gxl2pAsDnPwIiw',
+    apiKey: 'AIzaSyBTxgNGc5LvMRdRUv2ydU-ZI4KLShLMCa8',
     appId: '1:456030641264:android:b51c805cda9a12816328b5',
     messagingSenderId: '456030641264',
     projectId: 'koradi-radio',
@@ -49,7 +49,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAOI115vdarEheQUkNlcILqmQXMR6fvF8s',
+    apiKey: 'AIzaSyCrNrhvPfBrrTpEFsCR62noyUKCXFOvqig',
     appId: '1:456030641264:ios:f932e60f9e34fbd16328b5',
     messagingSenderId: '456030641264',
     projectId: 'koradi-radio',
