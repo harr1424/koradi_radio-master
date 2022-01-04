@@ -52,20 +52,6 @@ class About extends StatelessWidget {
                         throw 'Could not launch $url';
                       }
                     }),
-              TextSpan(
-                text: "\n You may also view this project's source code at ",
-                style: Theme.of(context).textTheme.bodyText1,
-              ),
-              TextSpan(
-                  text: "https://github.com/harr1424/koradi_radio \n",
-                  style: Theme.of(context)
-                      .textTheme
-                      .bodyText1
-                      ?.copyWith(decoration: TextDecoration.underline),
-                  recognizer: TapGestureRecognizer()
-                    ..onTap = () {
-                      launch("https://github.com/harr1424/koradi_radio");
-                    }),
             ]),
           ),
           ElevatedButton(
