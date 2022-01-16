@@ -69,5 +69,6 @@ class SobreEsto extends StatelessWidget {
 final Uri params = Uri(
   scheme: 'mailto',
   path: 'harr1424@pm.me',
-  query: 'subject=A Message From App User&body=Type your message here...',
+  query:
+  'subject=Mensaje del usuario de la aplicación&body=Escribe tu mensaje aquí...',
 );

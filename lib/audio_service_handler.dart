@@ -3,11 +3,6 @@ import 'package:just_audio/just_audio.dart';
 
 class AudioPlayerHandler extends BaseAudioHandler
     with SeekHandler, QueueHandler {
-  // Declare MediaItem used for streaming
-  static const _stream = MediaItem(
-    id: 'http://pad20.com:8505/vivo',
-    title: 'Koradi Radio Stream',
-  );
 
   // Instantiate a just_audio AudioPlayer
   final _player = AudioPlayer();
@@ -18,10 +13,6 @@ class AudioPlayerHandler extends BaseAudioHandler
     // what state to display, here we set up our audio handler to broadcast all
     // playback state changes as they happen via playbackState...
     _player.playbackEventStream.map(_transformEvent).pipe(playbackState);
-    // ... and also the current media item via mediaItem.
-    mediaItem.add(_stream);
-    // Load the player.
-    _player.setAudioSource(AudioSource.uri(Uri.parse(_stream.id)));
   }
 
   @override
