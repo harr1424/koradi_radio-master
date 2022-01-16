@@ -8,7 +8,7 @@ import 'package:koradi_radio/sobre_esto.dart';
 import 'package:rxdart/rxdart.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import 'esp_detail_Screen.dart';
+import 'esp_detail_screen.dart';
 import 'main.dart';
 import 'media_state.dart';
 

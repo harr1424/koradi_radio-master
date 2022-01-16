@@ -9,7 +9,7 @@ class SobreEsto extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('About'),
+        title: const Text('Sobre Esto'),
       ),
       body: Column(
         children: [
