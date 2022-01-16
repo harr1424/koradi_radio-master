@@ -2,8 +2,8 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class About extends StatelessWidget {
-  const About({Key? key}) : super(key: key);
+class SobreEsto extends StatelessWidget {
+  const SobreEsto({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -17,22 +17,22 @@ class About extends StatelessWidget {
             textAlign: TextAlign.center,
             text: TextSpan(children: [
               TextSpan(
-                  text: "\n \n \n Follow Koradi Radio on Telegram \n",
+                  text: "\n \n \n Sigue a Equipo Koradi en Telegram \n",
                   style: Theme.of(context)
                       .textTheme
                       .bodyText1
                       ?.copyWith(decoration: TextDecoration.underline),
                   recognizer: TapGestureRecognizer()
                     ..onTap = () {
-                      launch("https://t.me/Koradi_en");
+                      launch("https://t.me/Koradi_es");
                     }),
               TextSpan(
-                text: "\n \n Welcome to the Koradi Radio App! \n "
-                    "If you encounter problems when first beginning playback "
-                    "try pressing the 'Stop' icon and then resume playing "
-                    "by pressing the 'Play' icon. This should resolve irregular "
-                    "playback within a few seconds 🍊 \n \n"
-                    "Please email descriptions of any other problems you may encounter to ",
+                text: "\n \n ¡Bienvenido a la aplicación Equipo Koradi! \n "
+                    "Si tiene problemas al comenzar la reproducción por primera vez "
+                    "intenta presionar el ícono 'Detener' y luego reanuda la reproducción"
+                    "pulsando el icono 'Reproducir'. Esto debería resolverse de forma irregular"
+                    "reproducción en unos segundos🍊 \n \n"
+                    "Envíe por correo electrónico las descripciones de cualquier otro problema que pueda encontrar a ",
                 style: Theme.of(context).textTheme.bodyText1,
               ),
               TextSpan(

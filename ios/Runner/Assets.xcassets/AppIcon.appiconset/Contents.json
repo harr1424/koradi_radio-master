@@ -1,109 +1,109 @@
 {
   "images" : [
     {
-      "filename" : "fuji-20@2x.png",
+      "filename" : "koradi_large-20@2x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "20x20"
     },
     {
-      "filename" : "fuji-20@3x.png",
+      "filename" : "koradi_large-20@3x.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "20x20"
     },
     {
-      "filename" : "fuji-29@2x.png",
+      "filename" : "koradi_large-29@2x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "29x29"
     },
     {
-      "filename" : "fuji-29@3x.png",
+      "filename" : "koradi_large-29@3x.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "29x29"
     },
     {
-      "filename" : "fuji-40@2x.png",
+      "filename" : "koradi_large-40@2x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "40x40"
     },
     {
-      "filename" : "fuji-40@3x.png",
+      "filename" : "koradi_large-40@3x.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "40x40"
     },
     {
-      "filename" : "fuji-60@2x.png",
+      "filename" : "koradi_large-60@2x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "60x60"
     },
     {
-      "filename" : "fuji-60@3x.png",
+      "filename" : "koradi_large-60@3x.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "60x60"
     },
     {
-      "filename" : "fuji-20.png",
+      "filename" : "koradi_large-20.png",
       "idiom" : "ipad",
       "scale" : "1x",
       "size" : "20x20"
     },
     {
-      "filename" : "fuji-20@2x.png",
+      "filename" : "koradi_large-20@2x.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "20x20"
     },
     {
-      "filename" : "fuji-29.png",
+      "filename" : "koradi_large-29.png",
       "idiom" : "ipad",
       "scale" : "1x",
       "size" : "29x29"
     },
     {
-      "filename" : "fuji-29@2x.png",
+      "filename" : "koradi_large-29@2x.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "29x29"
     },
     {
-      "filename" : "fuji-40.png",
+      "filename" : "koradi_large-40.png",
       "idiom" : "ipad",
       "scale" : "1x",
       "size" : "40x40"
     },
     {
-      "filename" : "fuji-40@2x.png",
+      "filename" : "koradi_large-40@2x.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "40x40"
     },
     {
-      "filename" : "fuji-76.png",
+      "filename" : "koradi_large-76.png",
       "idiom" : "ipad",
       "scale" : "1x",
       "size" : "76x76"
     },
     {
-      "filename" : "fuji-76@2x.png",
+      "filename" : "koradi_large-76@2x.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "76x76"
     },
     {
-      "filename" : "fuji-83.5@2x.png",
+      "filename" : "koradi_large-83.5@2x.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "83.5x83.5"
     },
     {
-      "filename" : "fuji-1024.png",
+      "filename" : "koradi_large-1024.png",
       "idiom" : "ios-marketing",
       "scale" : "1x",
       "size" : "1024x1024"

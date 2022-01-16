@@ -5,8 +5,7 @@ import 'package:audio_session/audio_session.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:koradi_radio/audio_service_handler.dart';
-
-import 'english_home.dart';
+import 'package:koradi_radio/welcome.dart';
 
 late AudioHandler audioHandler;
 
@@ -35,13 +34,13 @@ class MyApp extends StatelessWidget {
         title: "Koradi Radio",
         theme: ThemeData(
           brightness: Brightness.light,
-          scaffoldBackgroundColor: Colors.white70,
+          scaffoldBackgroundColor: Colors.blue[100],
         ),
         darkTheme: ThemeData(
           brightness: Brightness.dark,
         ),
         themeMode: ThemeMode.system,
-        home: EnglishHome(
+        home: Welcome(
           audioHandler: audioHandler,
         ));
   }
