@@ -3,7 +3,6 @@ import 'dart:async';
 import 'package:audio_service/audio_service.dart';
 import 'package:audio_session/audio_session.dart';
 import 'package:audio_video_progress_bar/audio_video_progress_bar.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:koradi_radio/audio_service_handler.dart';
@@ -12,17 +11,12 @@ import 'package:url_launcher/url_launcher.dart';
 
 import 'about.dart';
 import 'detail_screen.dart';
-import 'downloads.dart';
-import 'firebase_options.dart';
 import 'media_state.dart';
 
 late AudioHandler audioHandler;
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
   final session = await AudioSession.instance;
   await session.configure(const AudioSessionConfiguration.music());
   audioHandler = await AudioService.init(
@@ -46,6 +40,7 @@ class MyApp extends StatelessWidget {
         title: "Koradi Radio",
         theme: ThemeData(
           brightness: Brightness.light,
+          scaffoldBackgroundColor: Colors.white70,
         ),
         darkTheme: ThemeData(
           brightness: Brightness.dark,
@@ -68,6 +63,7 @@ class _HomeState extends State<Home> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Koradi Radio'),
+        backgroundColor: Colors.transparent,
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -77,7 +73,7 @@ class _HomeState extends State<Home> {
               child: Hero(
                 tag: 'Koradi Bulletin',
                 child: Image.network(
-                  'http://koradi.org/en/wp-content/uploads/2021/12/892-Rafael-Vargas-Ingles.jpg',
+                  'http://koradi.org/en/next_lecture.jpg',
                   height: 400,
                 ),
               ),
@@ -103,18 +99,13 @@ class _HomeState extends State<Home> {
                 ),
                 ElevatedButton(
                   onPressed: () {
-                    // Navigate to downloads route
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => const Downloads()),
-                    );
+                    // Navigate to downloads page on website
+                    launch("http://koradi.org/en/downloads/");
                   },
                   child: const Text("Koradi Archives"),
                 ),
               ],
             ),
-
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
@@ -143,7 +134,9 @@ class _HomeState extends State<Home> {
               stream: audioHandler.mediaItem,
               builder: (context, snapshot) {
                 var mediaItem = snapshot.data;
-                return Text(mediaItem?.title ?? '');
+                return Text(
+                  mediaItem?.title ?? '',
+                );
               },
             ),
             // Play/pause/stop buttons.

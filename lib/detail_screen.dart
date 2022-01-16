@@ -12,7 +12,7 @@ class DetailScreen extends StatelessWidget {
           child: Hero(
             tag: 'Koradi Bulletin',
             child: Image.network(
-              'http://koradi.org/en/wp-content/uploads/2021/12/892-Rafael-Vargas-Ingles.jpg',
+              'http://koradi.org/en/next_lecture.jpg',
             ),
           ),
         ),

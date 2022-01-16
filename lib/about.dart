@@ -38,7 +38,7 @@ class About extends StatelessWidget {
                 style: Theme.of(context).textTheme.bodyText1,
               ),
               TextSpan(
-                  text: "harr1424@pm.me 🙏🙏🙏 \n",
+                  text: "koradiradio@gmail.com 🙏🙏🙏 \n",
                   style: Theme.of(context)
                       .textTheme
                       .bodyText1
