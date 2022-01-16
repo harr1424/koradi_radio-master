@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:koradi_radio/main.dart';
+
+import 'english_home.dart';
 
 // HeroApp used to display Koradi image at fullscreen on user tap
 
@@ -9,9 +10,9 @@ class HeroApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    return const MaterialApp(
+    return MaterialApp(
       title: 'Koradi Bulletin',
-      home: Home(),
+      home: EnglishHome(),
     );
   }
 }
