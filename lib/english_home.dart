@@ -54,7 +54,7 @@ class _EnglishHomeState extends State<EnglishHome> {
                   onPressed: () {
                     launch("http://koradi.org/en/koradi-radio-app/");
                   },
-                  child: const Text("Radio Player"),
+                  child: const Text("Lecture Player"),
                 ),
                 ElevatedButton(
                   onPressed: () {
@@ -77,7 +77,7 @@ class _EnglishHomeState extends State<EnglishHome> {
                     onPressed: () {
                       launch("http://koradi.org/en/koradi-radio-meditation/");
                     },
-                    child: const Text("Meditation")),
+                    child: const Text("Meditation Player")),
                 ElevatedButton(
                     onPressed: () {
                       Navigator.push(
