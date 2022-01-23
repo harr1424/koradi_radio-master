@@ -37,7 +37,7 @@ class _EnglishHomeState extends State<EnglishHome> {
               child: Hero(
                 tag: 'Koradi Bulletin',
                 child: Image.network(
-                  'http://koradi.org/en/next_lecture.jpg',
+                  'https://koradi.org/en/next.jpg',
                   height: 400,
                 ),
               ),
@@ -52,14 +52,9 @@ class _EnglishHomeState extends State<EnglishHome> {
               children: [
                 ElevatedButton(
                   onPressed: () {
-                    var stream = const MediaItem(
-                      id: 'http://pad20.com:8505/vivo',
-                      title: 'Koradi Radio Stream',
-                    );
-                    audioHandler.playMediaItem(stream);
-                    audioHandler.play();
+                    launch("http://koradi.org/en/koradi-radio-app/");
                   },
-                  child: const Text("Koradi Stream"),
+                  child: const Text("Radio Player"),
                 ),
                 ElevatedButton(
                   onPressed: () {
@@ -75,14 +70,14 @@ class _EnglishHomeState extends State<EnglishHome> {
               children: [
                 ElevatedButton(
                     onPressed: () async {
-                      var url = params.toString();
-                      if (await canLaunch(url)) {
-                        await launch(url);
-                      } else {
-                        throw 'Could not launch $url';
-                      }
+                      launch("http://koradi.org/en/contact-app/");
                     },
-                    child: const Text("Email Us")),
+                    child: const Text("Contact")),
+                ElevatedButton(
+                    onPressed: () {
+                      launch("http://koradi.org/en/koradi-radio-meditation/");
+                    },
+                    child: const Text("Meditation")),
                 ElevatedButton(
                     onPressed: () {
                       Navigator.push(

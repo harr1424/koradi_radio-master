@@ -3,6 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:koradi_radio/english_home.dart';
 import 'package:koradi_radio/esp_home.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class Welcome extends StatelessWidget {
   var audioHandler;
@@ -13,7 +14,7 @@ class Welcome extends StatelessWidget {
 
   MediaItem espStream = const MediaItem(
       id: "http://pad20.com:8500/vivo",
-      title: "Transmisión de Equipo Koradi");
+      title: "Transmisión de Radio Koradi");
 
   Welcome({Key? key, this.audioHandler}) : super(key: key);
 
@@ -21,7 +22,7 @@ class Welcome extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Idioma / Language"),
+        title: Text("Choose Language"),
         backgroundColor: Colors.transparent,
       ),
       body: Column(
@@ -31,10 +32,22 @@ class Welcome extends StatelessWidget {
             const SizedBox(
               width: double.infinity,
             ),
-            Row(
+            Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
+                  ElevatedButton(
+                    onPressed: () {
+                      audioHandler.playMediaItem(englishStream);
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => EnglishHome(
+                                audioHandler: audioHandler,
+                              )));
+                    },
+                    child: Text("English"),
+                  ),
               ElevatedButton(
                   onPressed: () {
                     audioHandler.playMediaItem(espStream);
@@ -46,18 +59,30 @@ class Welcome extends StatelessWidget {
                                 )));
                   },
                   child: Text("Español")),
-              ElevatedButton(
-                onPressed: () {
-                  audioHandler.playMediaItem(englishStream);
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => EnglishHome(
-                                audioHandler: audioHandler,
-                              )));
-                },
-                child: Text("English"),
-              ),
+                  ElevatedButton(
+                    onPressed: () {
+                      launch("http://koradi.org/fr/radio-koradi/");
+                    },
+                    child: Text("Français"),
+                  ),
+                  ElevatedButton(
+                    onPressed: () {
+                      launch("http://koradi.org/po/radio-koradi/");
+                    },
+                    child: Text("Português"),
+                  ),
+                  ElevatedButton(
+                    onPressed: () {
+                      launch("http://koradi.org/it/radio-koradi/");
+                    },
+                    child: Text("Italiano"),
+                  ),
+                  ElevatedButton(
+                    onPressed: () {
+                      launch("http://koradi.org/de/koradi-radio/");
+                    },
+                    child: Text("Deutsch"),
+                  ),
             ]),
           ]),
     );

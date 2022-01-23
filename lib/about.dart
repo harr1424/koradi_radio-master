@@ -31,12 +31,12 @@ class About extends StatelessWidget {
                     "If you encounter problems when first beginning playback "
                     "try pressing the 'Stop' icon and then resume playing "
                     "by pressing the 'Play' icon. This should resolve irregular "
-                    "playback within a few seconds 🍊 \n \n"
-                    "Please email descriptions of any other problems you may encounter to ",
+                    "playback within a few seconds \n \n"
+                    "Please email descriptions of any other problems you may encounter to: \n \n  ",
                 style: Theme.of(context).textTheme.bodyText1,
               ),
               TextSpan(
-                  text: "koradiradio@gmail.com 🙏🙏🙏 \n",
+                  text: "koradiradio@gmail.com  \n \n",
                   style: Theme.of(context)
                       .textTheme
                       .bodyText1

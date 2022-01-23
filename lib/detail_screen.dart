@@ -12,7 +12,7 @@ class DetailScreen extends StatelessWidget {
           child: Hero(
             tag: 'Koradi Bulletin',
             child: Image.network(
-              'http://koradi.org/en/next_lecture.jpg',
+              'https://koradi.org/en/next.jpg',
             ),
           ),
         ),

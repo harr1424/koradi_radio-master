@@ -26,7 +26,7 @@ class _EspHomeState extends State<EspHome> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Equipo Koradi'),
+        title: const Text('Radio Koradi'),
         backgroundColor: Colors.transparent,
       ),
       body: SingleChildScrollView(
@@ -37,7 +37,7 @@ class _EspHomeState extends State<EspHome> {
               child: Hero(
                 tag: 'Noticias de Koradi',
                 child: Image.network(
-                  'http://koradi.org/en/next_lecture.jpg',
+                  'https://koradi.org/es/next.jpg',
                   height: 400,
                 ),
               ),
@@ -52,21 +52,16 @@ class _EspHomeState extends State<EspHome> {
               children: [
                 ElevatedButton(
                   onPressed: () {
-                    var stream = const MediaItem(
-                      id: 'http://pad20.com:8500/vivo',
-                      title: 'Transmisión de Equipo Koradi',
-                    );
-                    audioHandler.playMediaItem(stream);
-                    audioHandler.play();
+                    launch("http://koradi.org/es/radio-koradi-app/");
                   },
-                  child: const Text("Transmisión de Koradi"),
+                  child: const Text("Reproductor de Radio"),
                 ),
                 ElevatedButton(
                   onPressed: () {
                     // Navigate to downloads page on website
                     launch("http://koradi.org/es/descargas/");
                   },
-                  child: const Text("Descargas"),
+                  child: const Text("Área de Descargas"),
                 ),
               ],
             ),
@@ -75,14 +70,14 @@ class _EspHomeState extends State<EspHome> {
               children: [
                 ElevatedButton(
                     onPressed: () async {
-                      var url = params.toString();
-                      if (await canLaunch(url)) {
-                        await launch(url);
-                      } else {
-                        throw 'Could not launch $url';
-                      }
+                      launch("http://koradi.org/es/contacto-app/");
                     },
-                    child: const Text("Envíenos un Correo")),
+                    child: const Text("Contacto")),
+                ElevatedButton(
+                    onPressed: () {
+                      launch("http://koradi.org/es/radio-koradi-meditacion/");
+                    },
+                    child: const Text("Meditaciones")),
                 ElevatedButton(
                     onPressed: () {
                       Navigator.push(
@@ -90,7 +85,7 @@ class _EspHomeState extends State<EspHome> {
                         MaterialPageRoute(builder: (context) => const SobreEsto()),
                       );
                     },
-                    child: const Text("Sobre Esto")),
+                    child: const Text("Sobre la app")),
               ],
             ),
             // Show media item title

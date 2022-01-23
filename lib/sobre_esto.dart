@@ -17,7 +17,7 @@ class SobreEsto extends StatelessWidget {
             textAlign: TextAlign.center,
             text: TextSpan(children: [
               TextSpan(
-                  text: "\n \n \n Sigue a Equipo Koradi en Telegram \n",
+                  text: "\n \n \n Sigue a Radio Koradi en Telegram \n",
                   style: Theme.of(context)
                       .textTheme
                       .bodyText1
@@ -27,16 +27,14 @@ class SobreEsto extends StatelessWidget {
                       launch("https://t.me/Koradi_es");
                     }),
               TextSpan(
-                text: "\n \n ¡Bienvenido a la aplicación Equipo Koradi! \n "
-                    "Si tiene problemas al comenzar la reproducción por primera vez "
-                    "intenta presionar el ícono 'Detener' y luego reanuda la reproducción"
-                    "pulsando el icono 'Reproducir'. Esto debería resolverse de forma irregular"
-                    "reproducción en unos segundos🍊 \n \n"
-                    "Envíe por correo electrónico las descripciones de cualquier otro problema que pueda encontrar a ",
+                text: "\n \n ¡Bienvenido a la aplicación de Radio Koradi! \n"
+                  "Si tienes problemas al comenzar la reproducción por primera vez, presiona el ícono 'Detener' y luego reanuda la preproducción pulsando sobre el ícono 'Reproducir' \n"
+                  "Esto debería resolver la reproducción irregular en unos segundos.\n \n"
+                "Envíanos por correo electrónico las descripciones de cualquier otro problema que puedas encontrar a \n \n",
                 style: Theme.of(context).textTheme.bodyText1,
               ),
               TextSpan(
-                  text: "koradiradio@gmail.com 🙏🙏🙏 \n",
+                  text: "koradiradio@gmail.com\n",
                   style: Theme.of(context)
                       .textTheme
                       .bodyText1
@@ -53,7 +51,7 @@ class SobreEsto extends StatelessWidget {
             ]),
           ),
           ElevatedButton(
-            child: const Text("Main Menu"),
+            child: const Text("Menú Principal"),
             onPressed: () {
               // Return to first route
               Navigator.pop(context);
