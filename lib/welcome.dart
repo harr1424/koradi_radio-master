@@ -36,6 +36,11 @@ class Welcome extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
+                  Image.asset(
+                      'assets/koradi.png',
+                    height: 200,
+                      width: 200,
+                  ),
                   ElevatedButton(
                     onPressed: () {
                       audioHandler.playMediaItem(englishStream);
