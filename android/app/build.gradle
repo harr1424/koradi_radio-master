@@ -52,8 +52,8 @@ android {
         applicationId "com.koradi.radio"
         minSdkVersion 16 //localProperties.getProperty('flutter.minSdkVersion').toInteger()
         targetSdkVersion flutter.targetSdkVersion
-        versionCode flutterVersionCode.toInteger()
-        versionName flutterVersionName
+        versionCode 2
+        versionName "2.0.0"
         multiDexEnabled true
     }
 

@@ -4,7 +4,7 @@ import 'package:audio_service/audio_service.dart';
 import 'package:audio_video_progress_bar/audio_video_progress_bar.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:koradi_radio/sobre_esto.dart';
+import 'package:koradi_app/sobre_esto.dart';
 import 'package:rxdart/rxdart.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -82,7 +82,8 @@ class _EspHomeState extends State<EspHome> {
                     onPressed: () {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => const SobreEsto()),
+                        MaterialPageRoute(
+                            builder: (context) => const SobreEsto()),
                       );
                     },
                     child: const Text("Sobre la app")),
@@ -155,18 +156,18 @@ Stream<MediaState> get _mediaStateStream =>
     Rx.combineLatest2<MediaItem?, Duration, MediaState>(
         audioHandler.mediaItem,
         AudioService.position,
-            (mediaItem, position) => MediaState(mediaItem, position));
+        (mediaItem, position) => MediaState(mediaItem, position));
 
 IconButton _button(IconData iconData, VoidCallback onPressed) => IconButton(
-  icon: Icon(iconData),
-  iconSize: 64.0,
-  onPressed: onPressed,
-);
+      icon: Icon(iconData),
+      iconSize: 64.0,
+      onPressed: onPressed,
+    );
 
 // Used for sending email from Home screen
 final Uri params = Uri(
   scheme: 'mailto',
   path: 'koradiradio@gmail.com',
   query:
-  'subject=Mensaje del usuario de la aplicación&body=Escribe tu mensaje aquí...',
+      'subject=Mensaje del usuario de la aplicación&body=Escribe tu mensaje aquí...',
 );
