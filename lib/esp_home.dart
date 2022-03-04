@@ -1,16 +1,11 @@
-import 'dart:async';
-
 import 'package:audio_service/audio_service.dart';
-import 'package:audio_video_progress_bar/audio_video_progress_bar.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:koradi_app/sobre_esto.dart';
-import 'package:rxdart/rxdart.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import 'esp_detail_screen.dart';
 import 'main.dart';
-import 'media_state.dart';
 
 class EspHome extends StatefulWidget {
   var audioHandler;
@@ -118,20 +113,6 @@ class _EspHomeState extends State<EspHome> {
                 );
               },
             ),
-            //Display  Progress Bar
-            StreamBuilder<MediaState>(
-              stream: _mediaStateStream,
-              builder: (context, snapshot) {
-                final mediaState = snapshot.data;
-                return ProgressBar(
-                  total: mediaState?.mediaItem?.duration ?? Duration.zero,
-                  progress: mediaState?.position ?? Duration.zero,
-                  onSeek: (position) {
-                    audioHandler.seek(position);
-                  },
-                );
-              },
-            ),
             // Display the processing state.
             StreamBuilder<AudioProcessingState>(
               stream: audioHandler.playbackState
@@ -150,13 +131,6 @@ class _EspHomeState extends State<EspHome> {
   }
 }
 
-/// A stream reporting the combined state of the current media item and its
-/// current position.
-Stream<MediaState> get _mediaStateStream =>
-    Rx.combineLatest2<MediaItem?, Duration, MediaState>(
-        audioHandler.mediaItem,
-        AudioService.position,
-        (mediaItem, position) => MediaState(mediaItem, position));
 
 IconButton _button(IconData iconData, VoidCallback onPressed) => IconButton(
       icon: Icon(iconData),
