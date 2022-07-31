@@ -1,105 +1,87 @@
 import 'package:audio_service/audio_service.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:koradi_app/sobre_esto.dart';
 import 'package:url_launcher/url_launcher.dart';
-
-import 'esp_detail_screen.dart';
+import 'fr_about.dart';
+import 'fr_detail_screen.dart';
 import 'main.dart';
 
-class EspHome extends StatefulWidget {
+class FrenchHome extends StatefulWidget {
   var audioHandler;
 
-  EspHome({Key? key, this.audioHandler}) : super(key: key);
+  FrenchHome({Key? key, this.audioHandler}) : super(key: key);
 
   @override
-  _EspHomeState createState() => _EspHomeState();
+  _FrenchHomeState createState() => _FrenchHomeState();
 }
 
-class _EspHomeState extends State<EspHome> {
+class _FrenchHomeState extends State<FrenchHome> {
 
-  MediaItem espStream = const MediaItem(
-      id: "https://sc.dattalive.com/8210/stream", title: "Transmisión de Radio Koradi"
-  );
-
-  MediaItem MeditationStreamEsp = const MediaItem(
-      id: "https://sonic.dattalive.com/8376/stream", title: "Reproductor de Meditaciones"
+  MediaItem frnStream = const MediaItem(
+      id: "https://sonic.dattalive.com/8228/stream", title: "Flux Radio Koradi"
   );
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Radio Koradi'),
+        title: const Text('Koradi Radio'),
         backgroundColor: Colors.transparent,
       ),
       body: SingleChildScrollView(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             GestureDetector(
               child: Hero(
-                tag: 'Noticias de Koradi',
+                tag: 'Koradi Bulletin',
                 child: Image.network(
-                  'https://koradi.org/es/next.jpg',
+                  'https://koradi.org/fr/next.jpg',
                   height: 400,
                 ),
               ),
               onTap: () {
                 Navigator.push(context, MaterialPageRoute(builder: (_) {
-                  return const EspDetailScreen();
+                  return const FrenchDetailScreen();
                 }));
               },
             ),
-            SingleChildScrollView(
-              scrollDirection: Axis.horizontal,
-            child:
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 ElevatedButton(
                   onPressed: () {
-                    audioHandler.playMediaItem(espStream);
+                    audioHandler.playMediaItem(frnStream);
                   },
-                  child: const Text("Reproductor de Radio"),
+                  child: const Text("Radio Lecteur"),
                 ),
-                ElevatedButton(
-                    onPressed: () {
-                      audioHandler.playMediaItem(MeditationStreamEsp);
-                    },
-                    child: const Text("Reproductor de Meditaciones")),
-              ],
-            ),
-    ),
-            SingleChildScrollView(
-      scrollDirection: Axis.horizontal,
-            child:
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: [
-                ElevatedButton(
-                    onPressed: () async {
-                      launch("http://koradi.org/es/contacto-app/");
-                    },
-                    child: const Text("Contacto")),
                 ElevatedButton(
                   onPressed: () {
                     // Navigate to downloads page on website
-                    launch("http://koradi.org/es/descargas/");
+                    launch("http://koradi.org/fr/telechargements/");
                   },
-                  child: const Text("Área de Descargas"),
+                  child: const Text("Téléchargements"),
                 ),
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                ElevatedButton(  // TODO UPDATE
+                    onPressed: () async {
+                      launch("http://koradi.org/fr/contact/");
+                    },
+                    child: const Text("Contact")),
+
                 ElevatedButton(
                     onPressed: () {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(
-                            builder: (context) => const SobreEsto()),
+                        MaterialPageRoute(builder: (context) => const FrAbout()),
                       );
                     },
-                    child: const Text("Sobre la app")),
+                    child: const Text("Info")),
               ],
-            ),
             ),
             // Show media item title
             StreamBuilder<MediaItem?>(
@@ -138,7 +120,7 @@ class _EspHomeState extends State<EspHome> {
               builder: (context, snapshot) {
                 final processingState =
                     snapshot.data ?? AudioProcessingState.idle;
-                return Text("Estado: ${describeEnum(processingState)}");
+                return Text("Status: ${describeEnum(processingState)}");
               },
             ),
           ],
@@ -150,8 +132,8 @@ class _EspHomeState extends State<EspHome> {
 
 
 IconButton _button(IconData iconData, VoidCallback onPressed) => IconButton(
-      icon: Icon(iconData),
-      iconSize: 64.0,
-      onPressed: onPressed,
-    );
+  icon: Icon(iconData),
+  iconSize: 64.0,
+  onPressed: onPressed,
+);
 

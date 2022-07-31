@@ -2,22 +2,22 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class About extends StatelessWidget {
-  const About({Key? key}) : super(key: key);
+class FrAbout extends StatelessWidget {
+  const FrAbout({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('About'),
+        title: const Text('À propos de cette application'),
       ),
       body: Column(
         children: [
           RichText(
             textAlign: TextAlign.center,
             text: TextSpan(children: [
-              TextSpan(
-                  text: "\n \n \n Follow Koradi Radio on Telegram \n",
+              TextSpan( // TODO remove or keep?
+                  text: "\n \n \n Suivez Koradi Radio sur Telegram \n",
                   style: Theme.of(context)
                       .textTheme
                       .bodyText1
@@ -27,12 +27,12 @@ class About extends StatelessWidget {
                       launch("https://t.me/Koradi_en");
                     }),
               TextSpan(
-                text: "\n \n Welcome to the Koradi Radio App! \n "
-                    "If you encounter problems when first beginning playback "
-                    "try pressing the 'Stop' icon and then resume playing "
-                    "by pressing the 'Play' icon. This should resolve irregular "
-                    "playback within a few seconds. \n \n"
-                    "Please email descriptions of any other problems you may encounter to: \n \n  ",
+                text: "\n \n Bienvenue sur l'application Koradi Radio!! \n "
+                    "Si vous rencontrez des problèmes lors du premier démarrage de la lecture "
+                    "essayez d'appuyer sur l'icône 'Stop'', puis reprenez la lecture "
+                    "en appuyant sur l'icône 'Play'. Cela devrait résoudre les problèmes irréguliers "
+                    "lecture en quelques secondes. \n \n"
+                    "Veuillez envoyer par e-mail les descriptions de tout autre problème que vous pourriez rencontrer a:  \n \n  ",
                 style: Theme.of(context).textTheme.bodyText1,
               ),
               TextSpan(
@@ -53,7 +53,7 @@ class About extends StatelessWidget {
             ]),
           ),
           ElevatedButton(
-            child: const Text("Main Menu"),
+            child: const Text("menu principal"),
             onPressed: () {
               // Return to first route
               Navigator.pop(context);

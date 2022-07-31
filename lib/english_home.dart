@@ -16,6 +16,16 @@ class EnglishHome extends StatefulWidget {
 }
 
 class _EnglishHomeState extends State<EnglishHome> {
+
+  MediaItem englishStream = const MediaItem(
+      id: "https://sc.dattalive.com/8214/stream", title: "Koradi Radio Stream"
+  );
+
+  MediaItem MeditationStreamEn = const MediaItem(
+      id: "https://sonic.dattalive.com/8380/stream", title: "Meditation Player"
+  );
+
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -46,17 +56,15 @@ class _EnglishHomeState extends State<EnglishHome> {
               children: [
                 ElevatedButton(
                   onPressed: () {
-                    launch("http://koradi.org/en/koradi-radio-app/");
+                    audioHandler.playMediaItem(englishStream);
                   },
                   child: const Text("Lecture Player"),
                 ),
                 ElevatedButton(
-                  onPressed: () {
-                    // Navigate to downloads page on website
-                    launch("http://koradi.org/en/downloads/");
-                  },
-                  child: const Text("Koradi Archives"),
-                ),
+                    onPressed: () {
+                      audioHandler.playMediaItem(MeditationStreamEn);
+                    },
+                    child: const Text("Meditation Player")),
               ],
             ),
             Row(
@@ -68,10 +76,12 @@ class _EnglishHomeState extends State<EnglishHome> {
                     },
                     child: const Text("Contact")),
                 ElevatedButton(
-                    onPressed: () {
-                      launch("http://koradi.org/en/koradi-radio-meditation/");
-                    },
-                    child: const Text("Meditation Player")),
+                  onPressed: () {
+                    // Navigate to downloads page on website
+                    launch("http://koradi.org/en/downloads/");
+                  },
+                  child: const Text("Koradi Archives"),
+                ),
                 ElevatedButton(
                     onPressed: () {
                       Navigator.push(
@@ -136,10 +146,4 @@ IconButton _button(IconData iconData, VoidCallback onPressed) => IconButton(
       onPressed: onPressed,
     );
 
-// Used for sending email from Home screen
-final Uri params = Uri(
-  scheme: 'mailto',
-  path: 'koradiradio@gmail.com',
-  query:
-      'subject=A Message From App User&body=Type your message to Koradi Radio here...',
-);
+

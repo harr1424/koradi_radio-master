@@ -2,16 +2,44 @@ import 'package:audio_service/audio_service.dart';
 import 'package:flutter/material.dart';
 import 'package:koradi_app/english_home.dart';
 import 'package:koradi_app/esp_home.dart';
+import 'package:koradi_app/french_home.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class Welcome extends StatelessWidget {
   var audioHandler;
 
   MediaItem englishStream = const MediaItem(
-      id: "https://sc.dattalive.com/8214/stream", title: "Koradi Radio Stream");
+      id: "https://sc.dattalive.com/8214/stream", title: "Koradi Radio Stream"
+  );
 
   MediaItem espStream = const MediaItem(
-      id: "https://sc.dattalive.com/8210/stream", title: "Transmisión de Radio Koradi");
+      id: "https://sc.dattalive.com/8210/stream", title: "Transmisión de Radio Koradi"
+  );
+
+  MediaItem frnStream = const MediaItem(
+    id: "https://sonic.dattalive.com/8228/stream", title: "Flux Radio Koradi"
+  );
+
+  MediaItem prtStream = const MediaItem(
+    id: "https://sonic.dattalive.com/8358/stream", title: "Transmissão de Rádio Koradi"
+  );
+
+  MediaItem itStream = const MediaItem(
+      id: "https://sonic.dattalive.com/8374/stream", title: "Stream Radiofonico Koradi"
+  );
+
+  MediaItem deStream = const MediaItem(
+      id: "https://sonic.dattalive.com/8376/stream", title: "Koradi-Radiostream"
+  );
+
+  MediaItem MeditationStreamEn = const MediaItem(
+      id: "https://sonic.dattalive.com/8380/stream", title: "Meditation Player"
+  );
+
+  MediaItem MeditationStreamEsp = const MediaItem(
+      id: "https://sonic.dattalive.com/8376/stream", title: "Reproductor de Meditaciones"
+  );
+
 
   Welcome({Key? key, this.audioHandler}) : super(key: key);
 
@@ -63,7 +91,13 @@ class Welcome extends StatelessWidget {
                       child: Text("Español")),
                   ElevatedButton(
                     onPressed: () {
-                      launch("http://koradi.org/fr/radio-koradi/");
+                      audioHandler.playMediaItem(frnStream);
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => FrenchHome(
+                                audioHandler: audioHandler,
+                              )));
                     },
                     child: Text("Français"),
                   ),
