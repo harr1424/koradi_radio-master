@@ -1,0 +1,304 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:1:1-68:12
+INJECTED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:1:1-68:12
+INJECTED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:1:1-68:12
+INJECTED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:1:1-68:12
+MERGED from [:just_audio] /Users/user/Projects/koradi_radio-master/build/just_audio/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:audio_service] /Users/user/Projects/koradi_radio-master/build/audio_service/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:sqflite] /Users/user/Projects/koradi_radio-master/build/sqflite/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:url_launcher_android] /Users/user/Projects/koradi_radio-master/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-16:12
+MERGED from [:fluttertoast] /Users/user/Projects/koradi_radio-master/build/fluttertoast/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:path_provider_android] /Users/user/Projects/koradi_radio-master/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:audio_session] /Users/user/Projects/koradi_radio-master/build/audio_session/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/user/.gradle/caches/transforms-3/a53bafbc36b1783f03224dd4ce2a2e6f/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/user/.gradle/caches/transforms-3/289dbc00909ce6513708fd612063726d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/user/.gradle/caches/transforms-3/3af88b8f3eb63202b6556cec78167501/transformed/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.17.1] /Users/user/.gradle/caches/transforms-3/754c7d8ad3221ea6f3224e94c78a124d/transformed/jetified-exoplayer-dash-2.17.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.17.1] /Users/user/.gradle/caches/transforms-3/b5b324089e7e50ab3ca396c8a4eee01d/transformed/jetified-exoplayer-hls-2.17.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.17.1] /Users/user/.gradle/caches/transforms-3/797cd20dfe305ec0c6be5191cd6e5b54/transformed/jetified-exoplayer-smoothstreaming-2.17.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.17.1] /Users/user/.gradle/caches/transforms-3/f4dec14f1707b578f8ebaa1d578d6d5f/transformed/jetified-exoplayer-core-2.17.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.media2:media2-session:1.2.0] /Users/user/.gradle/caches/transforms-3/fcc0c3c093980b06eab53acfe43d2275/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.media2:media2-common:1.2.0] /Users/user/.gradle/caches/transforms-3/c23d7b21898941eab90fe0209377545f/transformed/jetified-media2-common-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.4.3] /Users/user/.gradle/caches/transforms-3/3913b933b512c29ef041d020e17d2eab/transformed/media-1.4.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/user/.gradle/caches/transforms-3/542f2e3d15015dc0e33258779ea23ad5/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/user/.gradle/caches/transforms-3/a3f2ba6169ff3d2926e1595b44dbdcfb/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/user/.gradle/caches/transforms-3/503efd15fd6675601e10a22eafe2b89a/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/user/.gradle/caches/transforms-3/158dc6a250df5e5c3e6b47582e04bf17/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/user/.gradle/caches/transforms-3/9f134b23892f0f7ca23d3d396a884374/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.7.0] /Users/user/.gradle/caches/transforms-3/123584f917f06d9aab03f663c1476e18/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.17.1] /Users/user/.gradle/caches/transforms-3/f61aba45a7dfdc618d86338aeedc103d/transformed/jetified-exoplayer-datasource-2.17.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.17.1] /Users/user/.gradle/caches/transforms-3/76d35e3e0f77355f752ba949b640160b/transformed/jetified-exoplayer-extractor-2.17.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.17.1] /Users/user/.gradle/caches/transforms-3/198a6d4afe365d93ab66be56c86e1bbb/transformed/jetified-exoplayer-decoder-2.17.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.17.1] /Users/user/.gradle/caches/transforms-3/0504fb6a9744740e7598d18fb9f45e9b/transformed/jetified-exoplayer-database-2.17.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.17.1] /Users/user/.gradle/caches/transforms-3/586917d7a41a58e2e67904fde0ce8a76/transformed/jetified-exoplayer-common-2.17.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/user/.gradle/caches/transforms-3/33e1891115580ab5ea565c88e23d9b94/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/user/.gradle/caches/transforms-3/6c9979e7b4afd375b855fdd0a88c5e3a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/user/.gradle/caches/transforms-3/8e7e594cd71316281b0013e444287e08/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/user/.gradle/caches/transforms-3/cc9cdf21a54e6f7885a60cd8373c192a/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/user/.gradle/caches/transforms-3/5d1e42add8254d885ca28b9981925ccf/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/user/.gradle/caches/transforms-3/06a5ef918dfbb132d8bed4f4df349ddb/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/user/.gradle/caches/transforms-3/48a5424459209e57a448ef1aecb6521f/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/user/.gradle/caches/transforms-3/d98ba4ca3413e19f00b31ce328c7787e/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/user/.gradle/caches/transforms-3/e45db9137abed724ce5aa137074d6081/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:1:1-68:12
+INJECTED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:1:1-68:12
+INJECTED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:1:1-68:12
+	package
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:2:5-39
+		INJECTED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:1:1-68:12
+		INJECTED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:1:1-68:12
+		INJECTED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:3:5-67
+	android:name
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:3:22-65
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:4:5-76
+	android:name
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:4:22-74
+uses-permission#android.permission.INTERNET
+ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:7:5-53:19
+MERGED from [:url_launcher_android] /Users/user/Projects/koradi_radio-master/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-14:19
+MERGED from [:url_launcher_android] /Users/user/Projects/koradi_radio-master/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-14:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/user/.gradle/caches/transforms-3/289dbc00909ce6513708fd612063726d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/user/.gradle/caches/transforms-3/289dbc00909ce6513708fd612063726d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.7.0] /Users/user/.gradle/caches/transforms-3/123584f917f06d9aab03f663c1476e18/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /Users/user/.gradle/caches/transforms-3/123584f917f06d9aab03f663c1476e18/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/user/.gradle/caches/transforms-3/6c9979e7b4afd375b855fdd0a88c5e3a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/user/.gradle/caches/transforms-3/6c9979e7b4afd375b855fdd0a88c5e3a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /Users/user/.gradle/caches/transforms-3/123584f917f06d9aab03f663c1476e18/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:9:8-36
+	android:icon
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:11:9-43
+	android:usesCleartextTraffic
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:8:8-43
+	android:name
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:10:9-61
+activity#com.ryanheise.audioservice.AudioServiceActivity
+ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:12:9-32:20
+	android:launchMode
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:15:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:18:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:19:13-55
+	android:exported
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:14:13-36
+	android:configChanges
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:17:13-163
+	android:theme
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:16:13-47
+	android:name
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:13:13-75
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:24:13-27:17
+	android:resource
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:26:15-52
+	android:name
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:25:15-70
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:28:13-31:29
+action#android.intent.action.MAIN
+ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:29:17-68
+	android:name
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:30:17-76
+	android:name
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:30:27-74
+meta-data#flutterEmbedding
+ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:35:9-37:33
+	android:value
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:37:13-30
+	android:name
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:36:13-44
+service#com.ryanheise.audioservice.AudioService
+ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:38:9-43:19
+	android:exported
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:38:18-72
+intent-filter#action:name:android.media.browse.MediaBrowserService
+ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:40:13-42:29
+action#android.media.browse.MediaBrowserService
+ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:41:17-83
+	android:name
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:41:25-80
+receiver#com.ryanheise.audioservice.MediaButtonReceiver
+ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:46:9-51:20
+	android:exported
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:47:13-36
+	android:name
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:46:19-80
+intent-filter#action:name:android.intent.action.MEDIA_BUTTON
+ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:48:13-50:29
+action#android.intent.action.MEDIA_BUTTON
+ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:49:17-77
+	android:name
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:49:25-74
+queries
+ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:55:5-66:15
+MERGED from [androidx.media2:media2-session:1.2.0] /Users/user/.gradle/caches/transforms-3/fcc0c3c093980b06eab53acfe43d2275/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:24:5-34:15
+MERGED from [androidx.media2:media2-session:1.2.0] /Users/user/.gradle/caches/transforms-3/fcc0c3c093980b06eab53acfe43d2275/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:24:5-34:15
+intent#action:name:android.intent.action.VIEW+data:scheme:https
+ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:57:9-60:18
+action#android.intent.action.VIEW
+ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:58:13-65
+	android:name
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:58:21-62
+data
+ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:59:13-44
+	android:scheme
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:59:19-41
+	android:mimeType
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:64:19-41
+intent#action:name:android.intent.action.SEND+data:mimeType:*/*
+ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:62:9-65:18
+action#android.intent.action.SEND
+ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:63:13-65
+	android:name
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:63:21-62
+uses-sdk
+INJECTED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml
+MERGED from [:just_audio] /Users/user/Projects/koradi_radio-master/build/just_audio/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:just_audio] /Users/user/Projects/koradi_radio-master/build/just_audio/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:audio_service] /Users/user/Projects/koradi_radio-master/build/audio_service/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:audio_service] /Users/user/Projects/koradi_radio-master/build/audio_service/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] /Users/user/Projects/koradi_radio-master/build/sqflite/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] /Users/user/Projects/koradi_radio-master/build/sqflite/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] /Users/user/Projects/koradi_radio-master/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] /Users/user/Projects/koradi_radio-master/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:fluttertoast] /Users/user/Projects/koradi_radio-master/build/fluttertoast/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:fluttertoast] /Users/user/Projects/koradi_radio-master/build/fluttertoast/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Users/user/Projects/koradi_radio-master/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Users/user/Projects/koradi_radio-master/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:audio_session] /Users/user/Projects/koradi_radio-master/build/audio_session/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:audio_session] /Users/user/Projects/koradi_radio-master/build/audio_session/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/user/.gradle/caches/transforms-3/a53bafbc36b1783f03224dd4ce2a2e6f/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/user/.gradle/caches/transforms-3/a53bafbc36b1783f03224dd4ce2a2e6f/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/user/.gradle/caches/transforms-3/289dbc00909ce6513708fd612063726d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/user/.gradle/caches/transforms-3/289dbc00909ce6513708fd612063726d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/user/.gradle/caches/transforms-3/3af88b8f3eb63202b6556cec78167501/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/user/.gradle/caches/transforms-3/3af88b8f3eb63202b6556cec78167501/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.17.1] /Users/user/.gradle/caches/transforms-3/754c7d8ad3221ea6f3224e94c78a124d/transformed/jetified-exoplayer-dash-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.17.1] /Users/user/.gradle/caches/transforms-3/754c7d8ad3221ea6f3224e94c78a124d/transformed/jetified-exoplayer-dash-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.17.1] /Users/user/.gradle/caches/transforms-3/b5b324089e7e50ab3ca396c8a4eee01d/transformed/jetified-exoplayer-hls-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.17.1] /Users/user/.gradle/caches/transforms-3/b5b324089e7e50ab3ca396c8a4eee01d/transformed/jetified-exoplayer-hls-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.17.1] /Users/user/.gradle/caches/transforms-3/797cd20dfe305ec0c6be5191cd6e5b54/transformed/jetified-exoplayer-smoothstreaming-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.17.1] /Users/user/.gradle/caches/transforms-3/797cd20dfe305ec0c6be5191cd6e5b54/transformed/jetified-exoplayer-smoothstreaming-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.17.1] /Users/user/.gradle/caches/transforms-3/f4dec14f1707b578f8ebaa1d578d6d5f/transformed/jetified-exoplayer-core-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.17.1] /Users/user/.gradle/caches/transforms-3/f4dec14f1707b578f8ebaa1d578d6d5f/transformed/jetified-exoplayer-core-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media2:media2-session:1.2.0] /Users/user/.gradle/caches/transforms-3/fcc0c3c093980b06eab53acfe43d2275/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media2:media2-session:1.2.0] /Users/user/.gradle/caches/transforms-3/fcc0c3c093980b06eab53acfe43d2275/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media2:media2-common:1.2.0] /Users/user/.gradle/caches/transforms-3/c23d7b21898941eab90fe0209377545f/transformed/jetified-media2-common-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media2:media2-common:1.2.0] /Users/user/.gradle/caches/transforms-3/c23d7b21898941eab90fe0209377545f/transformed/jetified-media2-common-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.4.3] /Users/user/.gradle/caches/transforms-3/3913b933b512c29ef041d020e17d2eab/transformed/media-1.4.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.4.3] /Users/user/.gradle/caches/transforms-3/3913b933b512c29ef041d020e17d2eab/transformed/media-1.4.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/user/.gradle/caches/transforms-3/542f2e3d15015dc0e33258779ea23ad5/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/user/.gradle/caches/transforms-3/542f2e3d15015dc0e33258779ea23ad5/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/user/.gradle/caches/transforms-3/a3f2ba6169ff3d2926e1595b44dbdcfb/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/user/.gradle/caches/transforms-3/a3f2ba6169ff3d2926e1595b44dbdcfb/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/user/.gradle/caches/transforms-3/503efd15fd6675601e10a22eafe2b89a/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/user/.gradle/caches/transforms-3/503efd15fd6675601e10a22eafe2b89a/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/user/.gradle/caches/transforms-3/158dc6a250df5e5c3e6b47582e04bf17/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/user/.gradle/caches/transforms-3/158dc6a250df5e5c3e6b47582e04bf17/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/user/.gradle/caches/transforms-3/9f134b23892f0f7ca23d3d396a884374/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/user/.gradle/caches/transforms-3/9f134b23892f0f7ca23d3d396a884374/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.7.0] /Users/user/.gradle/caches/transforms-3/123584f917f06d9aab03f663c1476e18/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/user/.gradle/caches/transforms-3/123584f917f06d9aab03f663c1476e18/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.17.1] /Users/user/.gradle/caches/transforms-3/f61aba45a7dfdc618d86338aeedc103d/transformed/jetified-exoplayer-datasource-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.17.1] /Users/user/.gradle/caches/transforms-3/f61aba45a7dfdc618d86338aeedc103d/transformed/jetified-exoplayer-datasource-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.17.1] /Users/user/.gradle/caches/transforms-3/76d35e3e0f77355f752ba949b640160b/transformed/jetified-exoplayer-extractor-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.17.1] /Users/user/.gradle/caches/transforms-3/76d35e3e0f77355f752ba949b640160b/transformed/jetified-exoplayer-extractor-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.17.1] /Users/user/.gradle/caches/transforms-3/198a6d4afe365d93ab66be56c86e1bbb/transformed/jetified-exoplayer-decoder-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.17.1] /Users/user/.gradle/caches/transforms-3/198a6d4afe365d93ab66be56c86e1bbb/transformed/jetified-exoplayer-decoder-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.17.1] /Users/user/.gradle/caches/transforms-3/0504fb6a9744740e7598d18fb9f45e9b/transformed/jetified-exoplayer-database-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.17.1] /Users/user/.gradle/caches/transforms-3/0504fb6a9744740e7598d18fb9f45e9b/transformed/jetified-exoplayer-database-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.17.1] /Users/user/.gradle/caches/transforms-3/586917d7a41a58e2e67904fde0ce8a76/transformed/jetified-exoplayer-common-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.17.1] /Users/user/.gradle/caches/transforms-3/586917d7a41a58e2e67904fde0ce8a76/transformed/jetified-exoplayer-common-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/user/.gradle/caches/transforms-3/33e1891115580ab5ea565c88e23d9b94/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/user/.gradle/caches/transforms-3/33e1891115580ab5ea565c88e23d9b94/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/user/.gradle/caches/transforms-3/6c9979e7b4afd375b855fdd0a88c5e3a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/user/.gradle/caches/transforms-3/6c9979e7b4afd375b855fdd0a88c5e3a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/user/.gradle/caches/transforms-3/8e7e594cd71316281b0013e444287e08/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/user/.gradle/caches/transforms-3/8e7e594cd71316281b0013e444287e08/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/user/.gradle/caches/transforms-3/cc9cdf21a54e6f7885a60cd8373c192a/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/user/.gradle/caches/transforms-3/cc9cdf21a54e6f7885a60cd8373c192a/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/user/.gradle/caches/transforms-3/5d1e42add8254d885ca28b9981925ccf/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/user/.gradle/caches/transforms-3/5d1e42add8254d885ca28b9981925ccf/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/user/.gradle/caches/transforms-3/06a5ef918dfbb132d8bed4f4df349ddb/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/user/.gradle/caches/transforms-3/06a5ef918dfbb132d8bed4f4df349ddb/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/user/.gradle/caches/transforms-3/48a5424459209e57a448ef1aecb6521f/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/user/.gradle/caches/transforms-3/48a5424459209e57a448ef1aecb6521f/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/user/.gradle/caches/transforms-3/d98ba4ca3413e19f00b31ce328c7787e/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/user/.gradle/caches/transforms-3/d98ba4ca3413e19f00b31ce328c7787e/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/user/.gradle/caches/transforms-3/e45db9137abed724ce5aa137074d6081/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/user/.gradle/caches/transforms-3/e45db9137abed724ce5aa137074d6081/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] /Users/user/Projects/koradi_radio-master/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+	android:exported
+		ADDED from [:url_launcher_android] /Users/user/Projects/koradi_radio-master/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+	android:theme
+		ADDED from [:url_launcher_android] /Users/user/Projects/koradi_radio-master/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+	android:name
+		ADDED from [:url_launcher_android] /Users/user/Projects/koradi_radio-master/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/user/.gradle/caches/transforms-3/289dbc00909ce6513708fd612063726d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/user/.gradle/caches/transforms-3/289dbc00909ce6513708fd612063726d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/user/.gradle/caches/transforms-3/289dbc00909ce6513708fd612063726d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/user/.gradle/caches/transforms-3/289dbc00909ce6513708fd612063726d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/user/.gradle/caches/transforms-3/289dbc00909ce6513708fd612063726d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/user/.gradle/caches/transforms-3/289dbc00909ce6513708fd612063726d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.exoplayer:exoplayer-core:2.17.1] /Users/user/.gradle/caches/transforms-3/f4dec14f1707b578f8ebaa1d578d6d5f/transformed/jetified-exoplayer-core-2.17.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.17.1] /Users/user/.gradle/caches/transforms-3/586917d7a41a58e2e67904fde0ce8a76/transformed/jetified-exoplayer-common-2.17.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.17.1] /Users/user/.gradle/caches/transforms-3/586917d7a41a58e2e67904fde0ce8a76/transformed/jetified-exoplayer-common-2.17.1/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.exoplayer:exoplayer-core:2.17.1] /Users/user/.gradle/caches/transforms-3/f4dec14f1707b578f8ebaa1d578d6d5f/transformed/jetified-exoplayer-core-2.17.1/AndroidManifest.xml:24:22-76
+intent#action:name:android.media.browse.MediaBrowserService
+ADDED from [androidx.media2:media2-session:1.2.0] /Users/user/.gradle/caches/transforms-3/fcc0c3c093980b06eab53acfe43d2275/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:25:9-27:18
+intent#action:name:androidx.media2.session.MediaSessionService
+ADDED from [androidx.media2:media2-session:1.2.0] /Users/user/.gradle/caches/transforms-3/fcc0c3c093980b06eab53acfe43d2275/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:28:9-30:18
+action#androidx.media2.session.MediaSessionService
+ADDED from [androidx.media2:media2-session:1.2.0] /Users/user/.gradle/caches/transforms-3/fcc0c3c093980b06eab53acfe43d2275/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:29:13-82
+	android:name
+		ADDED from [androidx.media2:media2-session:1.2.0] /Users/user/.gradle/caches/transforms-3/fcc0c3c093980b06eab53acfe43d2275/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:29:21-79
+intent#action:name:androidx.media2.session.MediaLibraryService
+ADDED from [androidx.media2:media2-session:1.2.0] /Users/user/.gradle/caches/transforms-3/fcc0c3c093980b06eab53acfe43d2275/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:31:9-33:18
+action#androidx.media2.session.MediaLibraryService
+ADDED from [androidx.media2:media2-session:1.2.0] /Users/user/.gradle/caches/transforms-3/fcc0c3c093980b06eab53acfe43d2275/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:32:13-82
+	android:name
+		ADDED from [androidx.media2:media2-session:1.2.0] /Users/user/.gradle/caches/transforms-3/fcc0c3c093980b06eab53acfe43d2275/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:32:21-79

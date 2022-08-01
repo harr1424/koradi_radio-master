@@ -1,0 +1,188 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.koradi.radio"
+4    android:versionCode="4"
+5    android:versionName="2.0.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WAKE_LOCK" />
+11-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:3:22-65
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+12-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:4:5-76
+12-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:4:22-74
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:5:5-66
+13-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:5:22-64
+14
+15    <queries>
+15-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:55:5-66:15
+16
+17        <!-- If your app opens https URLs -->
+18        <intent>
+18-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:57:9-60:18
+19            <action android:name="android.intent.action.VIEW" />
+19-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:58:13-65
+19-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:58:21-62
+20
+21            <data android:scheme="https" />
+21-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:59:13-44
+21-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:59:19-41
+22        </intent>
+23        <!-- If your app sends emails -->
+24        <intent>
+24-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:62:9-65:18
+25            <action android:name="android.intent.action.SEND" />
+25-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:63:13-65
+25-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:63:21-62
+26
+27            <data android:mimeType="*/*" />
+27-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:59:13-44
+27-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:64:19-41
+28        </intent>
+29        <intent>
+29-->[androidx.media2:media2-session:1.2.0] /Users/user/.gradle/caches/transforms-3/fcc0c3c093980b06eab53acfe43d2275/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:25:9-27:18
+30            <action android:name="android.media.browse.MediaBrowserService" />
+30-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:41:17-83
+30-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:41:25-80
+31        </intent>
+32        <intent>
+32-->[androidx.media2:media2-session:1.2.0] /Users/user/.gradle/caches/transforms-3/fcc0c3c093980b06eab53acfe43d2275/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:28:9-30:18
+33            <action android:name="androidx.media2.session.MediaSessionService" />
+33-->[androidx.media2:media2-session:1.2.0] /Users/user/.gradle/caches/transforms-3/fcc0c3c093980b06eab53acfe43d2275/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:29:13-82
+33-->[androidx.media2:media2-session:1.2.0] /Users/user/.gradle/caches/transforms-3/fcc0c3c093980b06eab53acfe43d2275/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:29:21-79
+34        </intent>
+35        <intent>
+35-->[androidx.media2:media2-session:1.2.0] /Users/user/.gradle/caches/transforms-3/fcc0c3c093980b06eab53acfe43d2275/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:31:9-33:18
+36            <action android:name="androidx.media2.session.MediaLibraryService" />
+36-->[androidx.media2:media2-session:1.2.0] /Users/user/.gradle/caches/transforms-3/fcc0c3c093980b06eab53acfe43d2275/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:32:13-82
+36-->[androidx.media2:media2-session:1.2.0] /Users/user/.gradle/caches/transforms-3/fcc0c3c093980b06eab53acfe43d2275/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:32:21-79
+37        </intent>
+38    </queries>
+39
+40    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+40-->[com.google.android.exoplayer:exoplayer-core:2.17.1] /Users/user/.gradle/caches/transforms-3/f4dec14f1707b578f8ebaa1d578d6d5f/transformed/jetified-exoplayer-core-2.17.1/AndroidManifest.xml:24:5-79
+40-->[com.google.android.exoplayer:exoplayer-core:2.17.1] /Users/user/.gradle/caches/transforms-3/f4dec14f1707b578f8ebaa1d578d6d5f/transformed/jetified-exoplayer-core-2.17.1/AndroidManifest.xml:24:22-76
+41
+42    <application
+42-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:7:5-53:19
+43        android:name="androidx.multidex.MultiDexApplication"
+43-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:10:9-61
+44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+44-->[androidx.core:core:1.7.0] /Users/user/.gradle/caches/transforms-3/123584f917f06d9aab03f663c1476e18/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+45        android:icon="@mipmap/ic_launcher"
+45-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:11:9-43
+46        android:label="Koradi Radio"
+46-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:9:8-36
+47        android:usesCleartextTraffic="true" >
+47-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:8:8-43
+48        <activity
+48-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:12:9-32:20
+49            android:name="com.ryanheise.audioservice.AudioServiceActivity"
+49-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:13:13-75
+50            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+50-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:17:13-163
+51            android:exported="true"
+51-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:14:13-36
+52            android:hardwareAccelerated="true"
+52-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:18:13-47
+53            android:launchMode="singleTop"
+53-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:15:13-43
+54            android:theme="@style/LaunchTheme"
+54-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:16:13-47
+55            android:windowSoftInputMode="adjustResize" >
+55-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:19:13-55
+56
+57            <!--
+58                 Specifies an Android theme to apply to this Activity as soon as
+59                 the Android process has started. This theme is visible to the user
+60                 while the Flutter UI initializes. After that, this theme continues
+61                 to determine the Window background behind the Flutter UI.
+62            -->
+63            <meta-data
+63-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:24:13-27:17
+64                android:name="io.flutter.embedding.android.NormalTheme"
+64-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:25:15-70
+65                android:resource="@style/NormalTheme" />
+65-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:26:15-52
+66
+67            <intent-filter>
+67-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:28:13-31:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:29:17-68
+68-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:29:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:30:17-76
+70-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:30:27-74
+71            </intent-filter>
+72        </activity>
+73        <!--
+74             Don't delete the meta-data below.
+75             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+76        -->
+77        <meta-data
+77-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:35:9-37:33
+78            android:name="flutterEmbedding"
+78-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:36:13-44
+79            android:value="2" />
+79-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:37:13-30
+80
+81        <service
+81-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:38:9-43:19
+82            android:name="com.ryanheise.audioservice.AudioService"
+82-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:38:18-72
+83            android:exported="true" >
+83-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:39:13-36
+84            <intent-filter>
+84-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:40:13-42:29
+85                <action android:name="android.media.browse.MediaBrowserService" />
+85-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:41:17-83
+85-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:41:25-80
+86            </intent-filter>
+87        </service>
+88
+89        <!-- ADD THIS "RECEIVER" element -->
+90        <receiver
+90-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:46:9-51:20
+91            android:name="com.ryanheise.audioservice.MediaButtonReceiver"
+91-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:46:19-80
+92            android:exported="true" >
+92-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:47:13-36
+93            <intent-filter>
+93-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:48:13-50:29
+94                <action android:name="android.intent.action.MEDIA_BUTTON" />
+94-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:49:17-77
+94-->/Users/user/Projects/koradi_radio-master/android/app/src/main/AndroidManifest.xml:49:25-74
+95            </intent-filter>
+96        </receiver>
+97
+98        <activity
+98-->[:url_launcher_android] /Users/user/Projects/koradi_radio-master/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+99            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+99-->[:url_launcher_android] /Users/user/Projects/koradi_radio-master/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+100            android:exported="false"
+100-->[:url_launcher_android] /Users/user/Projects/koradi_radio-master/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+101            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+101-->[:url_launcher_android] /Users/user/Projects/koradi_radio-master/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+102
+103        <uses-library
+103-->[androidx.window:window:1.0.0-beta04] /Users/user/.gradle/caches/transforms-3/289dbc00909ce6513708fd612063726d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+104            android:name="androidx.window.extensions"
+104-->[androidx.window:window:1.0.0-beta04] /Users/user/.gradle/caches/transforms-3/289dbc00909ce6513708fd612063726d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+105            android:required="false" />
+105-->[androidx.window:window:1.0.0-beta04] /Users/user/.gradle/caches/transforms-3/289dbc00909ce6513708fd612063726d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+106        <uses-library
+106-->[androidx.window:window:1.0.0-beta04] /Users/user/.gradle/caches/transforms-3/289dbc00909ce6513708fd612063726d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+107            android:name="androidx.window.sidecar"
+107-->[androidx.window:window:1.0.0-beta04] /Users/user/.gradle/caches/transforms-3/289dbc00909ce6513708fd612063726d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+108            android:required="false" />
+108-->[androidx.window:window:1.0.0-beta04] /Users/user/.gradle/caches/transforms-3/289dbc00909ce6513708fd612063726d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+109    </application>
+110
+111</manifest>

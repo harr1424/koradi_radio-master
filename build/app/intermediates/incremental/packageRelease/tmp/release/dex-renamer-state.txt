@@ -1,0 +1,4 @@
+#Sat Jul 30 20:24:56 MDT 2022
+base.0=/Users/user/Projects/koradi_radio-master/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

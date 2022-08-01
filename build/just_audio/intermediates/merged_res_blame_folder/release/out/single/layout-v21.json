@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/user/Projects/koradi_radio-master/build/just_audio/intermediates/merged_res/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/user/.gradle/caches/transforms-3/123584f917f06d9aab03f663c1476e18/transformed/core-1.7.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/user/Projects/koradi_radio-master/build/just_audio/intermediates/merged_res/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/user/.gradle/caches/transforms-3/123584f917f06d9aab03f663c1476e18/transformed/core-1.7.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/user/Projects/koradi_radio-master/build/just_audio/intermediates/merged_res/release/layout-v21/notification_action.xml",
+        "source": "/Users/user/.gradle/caches/transforms-3/123584f917f06d9aab03f663c1476e18/transformed/core-1.7.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/user/Projects/koradi_radio-master/build/just_audio/intermediates/merged_res/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/user/.gradle/caches/transforms-3/123584f917f06d9aab03f663c1476e18/transformed/core-1.7.0/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

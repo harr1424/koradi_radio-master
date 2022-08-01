@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/user/Projects/koradi_radio-master/build/path_provider_android/intermediates/merged_res/release/drawable/notification_bg.xml",
+        "source": "/Users/user/.gradle/caches/transforms-3/2e8daf3fe556cc1f0bbfd1d0fbeaed1e/transformed/core-1.6.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/user/Projects/koradi_radio-master/build/path_provider_android/intermediates/merged_res/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/user/.gradle/caches/transforms-3/2e8daf3fe556cc1f0bbfd1d0fbeaed1e/transformed/core-1.6.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/user/Projects/koradi_radio-master/build/path_provider_android/intermediates/merged_res/release/drawable/notification_bg_low.xml",
+        "source": "/Users/user/.gradle/caches/transforms-3/2e8daf3fe556cc1f0bbfd1d0fbeaed1e/transformed/core-1.6.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/user/Projects/koradi_radio-master/build/path_provider_android/intermediates/merged_res/release/drawable/notification_icon_background.xml",
+        "source": "/Users/user/.gradle/caches/transforms-3/2e8daf3fe556cc1f0bbfd1d0fbeaed1e/transformed/core-1.6.0/res/drawable/notification_icon_background.xml"
+    }
+]
