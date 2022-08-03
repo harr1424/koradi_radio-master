@@ -9,11 +9,11 @@ class Welcome extends StatelessWidget {
   var audioHandler;
 
   MediaItem englishStream = const MediaItem(
-      id: "https://sc.dattalive.com/8214/stream", title: "Koradi Radio Stream"
+      id: "https://sc.dattalive.com/8214/stream", title: "Lecture Player"
   );
 
   MediaItem espStream = const MediaItem(
-      id: "https://sc.dattalive.com/8210/stream", title: "Transmisión de Radio Koradi"
+      id: "https://sc.dattalive.com/8210/stream", title: "Reproductor de Radio"
   );
 
   MediaItem frnStream = const MediaItem(
